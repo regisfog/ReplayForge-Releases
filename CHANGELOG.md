@@ -1,3 +1,19 @@
+# ReplayForge 0.8.4
+
+## Russian
+
+- Если микрофон появляется не сразу после запуска ReplayForge, повтор дождётся его и запустится автоматически.
+- Если Windows изменила идентификатор выбранного микрофона, ReplayForge восстановит выбор, когда найдёт ровно одно устройство с тем же именем.
+- Недоступный микрофон больше не подсвечивается как «По умолчанию».
+- При попытке сохранить откат уведомление различает три ситуации: повтор не запущен, буфер ещё набирается или микрофон недоступен.
+
+## English
+
+- If the microphone isn’t available when ReplayForge opens, replay starts automatically once it becomes available.
+- If Windows changes the selected microphone’s device ID, ReplayForge restores the selection when exactly one available device has the same name.
+- An unavailable microphone is no longer highlighted as the default device.
+- When you try to save a replay, the notification distinguishes between replay not running, the buffer still filling, and the microphone being unavailable.
+
 # ReplayForge 0.8.3
 
 ## Russian
